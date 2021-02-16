@@ -1,3 +1,8 @@
+// Use JSDELIVR to get the files from a GitHub repository
+// https://cdn.jsdelivr.net/gh/<github-username>/<repository-name>/
+var repo_site = "https://cdn.jsdelivr.net/gh/cwohlrab/jsPsych-in-Qualtrics/n-back/";
+
+
 /* create timeline */
 var timeline = [];
 
@@ -43,7 +48,6 @@ var instructions_3 = {
 timeline.push(instructions_3);
 
 /* N Back sequence trials */
-
 var n_back_trial = {
   type: 'html-keyboard-response',
   stimulus: function() {
@@ -100,7 +104,6 @@ var n_back_sequence = {
 timeline.push(n_back_sequence);
 
 /* feedback */
-
 var feedback = {
   type: 'html-keyboard-response',
   stimulus: function(){
