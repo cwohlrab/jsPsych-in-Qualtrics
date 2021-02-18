@@ -16,7 +16,7 @@ var sequence_length = 22;
 var instructions_1 = {
   type: 'html-button-response',
   stimulus: '<div style="width: 800px;">'+
-    '<p>This experiment will test your ability to hold information in short-term, temporary memory. This is called working memory.</p>'+
+    '<p>TEST TEST TEST TEST.</p>'+
     '</div>',
   choices: ["Continue"]
 }
